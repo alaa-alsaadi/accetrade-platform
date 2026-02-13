@@ -50,12 +50,12 @@
           <!-- Trust Indicators -->
           <div class="pt-8 grid grid-cols-3 gap-8 border-t border-white/10">
             <div>
-              <div class="text-3xl font-bold text-white mb-1">900+</div>
+              <div class="text-3xl font-bold text-white mb-1">9000+</div>
               <div class="text-sm text-gray-400">عضو نشط</div>
             </div>
             <div>
               <div class="text-3xl font-bold text-white mb-1">$16</div>
-              <div class="text-sm text-gray-400">دخل يومي يصل لـ</div>
+              <div class="text-sm text-gray-400">اقل دخل يومي</div>
             </div>
             <div>
               <div class="text-3xl font-bold text-white mb-1">100%</div>
@@ -154,7 +154,7 @@
                 </div>
 
                 <!-- Menu Items -->
-                <div class="flex-1 overflow-y-auto px-3 py-4 space-y-3 scrollbar-hide">
+                <div class="flex-1 overflow-hidden px-3 py-4 space-y-3 scrollbar-hide">
                   <div class="bg-white rounded-xl p-3 flex items-center gap-3 shadow-[0_2px_8px_rgba(0,0,0,0.04)] hover:bg-gray-50 transition-colors cursor-pointer">
                     <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-yellow-300 to-yellow-500 flex items-center justify-center text-white shadow-sm">
                       <Wallet class="w-5 h-5 filter drop-shadow-sm" />
