@@ -20,6 +20,22 @@
         </div>
       </div>
 
+      <!-- How to Earn Points -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+        <div class="bg-gold-50 rounded-xl p-6 text-center border border-gold-100">
+          <div class="text-3xl font-bold text-gold-600 mb-2">+5</div>
+          <p class="font-semibold text-navy-900">عند كل إحالة ناجحة</p>
+        </div>
+        <div class="bg-gold-50 rounded-xl p-6 text-center border border-gold-100">
+          <div class="text-3xl font-bold text-gold-600 mb-2">+10</div>
+          <p class="font-semibold text-navy-900">عند كل ترقية في المستوى</p>
+        </div>
+        <div class="bg-gold-50 rounded-xl p-6 text-center border border-gold-100">
+          <div class="text-3xl font-bold text-gold-600 mb-2">+3</div>
+          <p class="font-semibold text-navy-900">عند تحقيق الأهداف الشهرية</p>
+        </div>
+      </div>
+
       <!-- Calculator -->
       <div class="card bg-gradient-to-br from-navy-900 to-navy-700 text-white max-w-3xl mx-auto">
         <h3 class="text-2xl font-bold mb-6 text-center text-gold-300">
@@ -84,7 +100,7 @@
 
         <!-- Formula Display -->
         <div class="mt-4 text-center text-sm text-gold-200">
-          <p>الصيغة: (نقاط الشرف × الأشهر × معامل القيادة) + إجمالي الفريق</p>
+          <p>معادلة حساب النقاط: (نقاط الشرف × عدد الأشهر × معامل القائد) + حجم الفريق</p>
         </div>
       </div>
     </div>
@@ -102,10 +118,10 @@ const teamTotal = ref(0)
 
 const rewards = [
   { points: 170, prize: '70 USDT' },
-  { points: 250, prize: '180 USDT' },
-  { points: 350, prize: '800 USDT' },
-  { points: 600, prize: '7,000 USDT' },
-  { points: 900, prize: '16,000 USDT' },
+  { points: 250, prize: 'أجهزة منزلية (180 USDT)' },
+  { points: 350, prize: 'لابتوب (800 USDT)' },
+  { points: 600, prize: 'عمرة لشخصين (7,000 USDT)' },
+  { points: 900, prize: 'صندوق التطوير (16,000 USDT)' },
   { points: 1400, prize: 'سيارة BMW ($100,000)' },
 ]
 

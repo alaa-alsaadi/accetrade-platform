@@ -48,9 +48,9 @@
 
       <!-- Additional Info -->
       <div class="mt-8 bg-white rounded-xl p-6 text-navy-900">
-        <p class="text-sm leading-relaxed">
-          <strong>ملاحظة:</strong> يكون راتب كل يوم عمل هو 3.2 دولاراً أمريكياً، أي أجمالي الدخل لمدة 30 يوم عمل هو 960 دولاراً أمريكياً. 
-          ويكون أجمالي الراتب الأساسي لمدة 365 يوم عمل هو 11,680 دولاراً أمريكياً.
+        <p class="text-sm leading-relaxed text-gray-600">
+          <strong>ملاحظة:</strong> الوديعة هي ضمان لجدية العمل.
+          مثال (C2): إنجاز 10 مهام يومياً يحقق <span class="text-navy-900 font-bold">3.2$ يومياً</span>، ما يعادل <span class="text-navy-900 font-bold">960$ شهرياً</span> و <span class="text-navy-900 font-bold">11,680$ سنوياً</span>.
         </p>
       </div>
     </div>

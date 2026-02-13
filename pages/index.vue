@@ -8,20 +8,33 @@
 
     <!-- Main Content Sections -->
     <main>
-      <!-- Earnings Journey -->
-      <EarningsJourney />
+      <!-- Blogger Workflow -->
+      <BloggerWorkflow />
+
+
+      <!-- Value Proposition / About Us -->
+      <AboutSection />
 
       <!-- Membership Tiers -->
       <MembershipTiers />
+
+      <!-- Referral Levels Example -->
+      <ReferralLevels />
 
       <!-- Loyalty Program -->
       <LoyaltyProgram />
 
       <!-- Locations -->
       <Locations />
+      <!-- System Explanation -->
+      <SystemExplanation />
 
-      <!-- Blogger Workflow -->
-      <BloggerWorkflow />
+      <!-- FAQ Section -->
+      <FAQSection />
+
+      <!-- Support CTA -->
+      <SupportCTA />
+
     </main>
 
     <!-- Footer with WhatsApp Button -->

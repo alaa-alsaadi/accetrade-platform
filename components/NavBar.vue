@@ -17,7 +17,7 @@
         <div class="hidden md:flex items-center space-x-6 space-x-reverse">
           <a href="#home" class="nav-link">الرئيسية</a>
           <a href="#memberships" class="nav-link">العضويات</a>
-          <a href="#earnings" class="nav-link">الأرباح</a>
+          <a href="#how-it-works" class="nav-link">كيف يعمل النظام</a>
           <a href="#locations" class="nav-link">المراكز الإبداعية</a>
           <a href="#contact" class="nav-link">اتصل بنا</a>
         </div>
@@ -36,7 +36,7 @@
       <div v-if="mobileMenuOpen" class="md:hidden pb-4 space-y-2">
         <a href="#home" class="mobile-nav-link">الرئيسية</a>
         <a href="#memberships" class="mobile-nav-link">العضويات</a>
-        <a href="#earnings" class="mobile-nav-link">الأرباح</a>
+        <a href="#how-it-works" class="mobile-nav-link">كيف يعمل النظام</a>
         <a href="#locations" class="mobile-nav-link">المراكز الإبداعية</a>
         <a href="#contact" class="mobile-nav-link">اتصل بنا</a>
       </div>
