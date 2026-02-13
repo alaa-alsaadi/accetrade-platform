@@ -3,15 +3,15 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-20">
         <!-- Logo and Brand -->
-        <div class="flex items-center space-x-4 space-x-reverse">
-          <div class="flex items-center justify-center w-12 h-12 rounded-full bg-gold-500 shadow-lg">
-            <Globe class="w-7 h-7 text-navy-900" />
+        <a href="#home" class="flex items-center space-x-3 space-x-reverse h-full group">
+          <div class="h-14 w-auto flex items-center justify-center">
+            <img src="/logo.png" alt="ACCE Logo" class="h-full w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
           </div>
-          <div class="text-right">
-            <h1 class="text-xl font-bold text-white">ACCE</h1>
-            <p class="text-xs text-gold-300">شبكة الإعلانات</p>
+          <div class="flex flex-col items-start text-right">
+            <span class="text-xl font-black text-white leading-none tracking-wider">ACCE</span>
+            <span class="text-[10px] text-gold-400 font-bold uppercase tracking-[0.2em]">Advertising</span>
           </div>
-        </div>
+        </a>
 
         <!-- Desktop Menu -->
         <div class="hidden md:flex items-center space-x-6 space-x-reverse">
@@ -19,14 +19,13 @@
           <a href="#memberships" class="nav-link">العضويات</a>
           <a href="#how-it-works" class="nav-link">كيف يعمل النظام</a>
           <a href="#locations" class="nav-link">المراكز الإبداعية</a>
+          <a href="https://accewhitepaper.com/" target="_blank" class="nav-link text-gold-400">نبذه عن الشركة</a>
           <a href="#contact" class="nav-link">اتصل بنا</a>
         </div>
 
         <!-- Mobile menu button -->
-        <button 
-          @click="mobileMenuOpen = !mobileMenuOpen"
-          class="md:hidden text-white p-2 rounded-lg hover:bg-navy-600 transition-colors"
-        >
+        <button @click="mobileMenuOpen = !mobileMenuOpen"
+          class="md:hidden text-white p-2 rounded-lg hover:bg-navy-600 transition-colors">
           <Menu v-if="!mobileMenuOpen" class="w-6 h-6" />
           <X v-else class="w-6 h-6" />
         </button>
@@ -38,6 +37,7 @@
         <a href="#memberships" class="mobile-nav-link">العضويات</a>
         <a href="#how-it-works" class="mobile-nav-link">كيف يعمل النظام</a>
         <a href="#locations" class="mobile-nav-link">المراكز الإبداعية</a>
+        <a href="https://accewhitepaper.com/" target="_blank" class="mobile-nav-link text-gold-400">نبذه عن الشركة</a>
         <a href="#contact" class="mobile-nav-link">اتصل بنا</a>
       </div>
     </div>

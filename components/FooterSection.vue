@@ -1,29 +1,14 @@
 <template>
-  <!-- Floating WhatsApp Button -->
-  <a 
-    :href="whatsappLink" 
-    target="_blank"
-    rel="noopener noreferrer"
-    class="fixed bottom-6 left-6 z-50 bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-2xl hover:scale-110 transition-all duration-300 group"
-    aria-label="اتصل بنا عبر واتساب"
-  >
-    <MessageCircle class="w-8 h-8" />
-    <span class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-1 bg-navy-900 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
-      تواصل معنا
-    </span>
-  </a>
-
   <!-- Footer -->
   <footer id="contact" class="bg-gradient-navy text-white py-12">
     <div class="max-w-7xl mx-auto px-4">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <!-- Company Info -->
         <div class="text-right">
-          <div class="flex items-center justify-end space-x-3 space-x-reverse mb-4">
-            <div class="flex items-center justify-center w-12 h-12 rounded-full bg-gold-500">
-              <Globe class="w-7 h-7 text-navy-900" />
+          <div class="flex items-center justify-center md:justify-start mb-4">
+            <div class="h-20 w-auto">
+              <img src="/logo.png" alt="ACCE Logo" class="h-full w-auto object-contain brightness-0 invert opacity-90" />
             </div>
-            <h3 class="text-2xl font-bold">ACCE Network</h3>
           </div>
           <p class="text-gray-300 mb-4">
             شركة شبكة ACCE للإعلانات - رائدة في مجال التسويق الرقمي والإعلانات في العراق
@@ -39,6 +24,7 @@
             <li><a href="#earnings" class="text-gray-300 hover:text-gold-400 transition-colors">الأرباح</a></li>
             <li><a href="#loyalty" class="text-gray-300 hover:text-gold-400 transition-colors">نقاط الشرف</a></li>
             <li><a href="#locations" class="text-gray-300 hover:text-gold-400 transition-colors">المراكز الإبداعية</a></li>
+            <li><a href="https://accewhitepaper.com/" target="_blank" class="text-gold-400 hover:text-gold-300 transition-colors font-bold">نبذه عن شركة</a></li>
           </ul>
         </div>
 
@@ -77,7 +63,7 @@ import { computed } from 'vue'
 import { MessageCircle, Globe, MapPin, Phone, Mail } from 'lucide-vue-next'
 
 // Replace with actual WhatsApp number (placeholder for now)
-const whatsappNumber = '+964 XXX XXX XXXX'
+const whatsappNumber = '+964 771 646 1687'
 const whatsappMessage = encodeURIComponent('مرحباً، أرغب في الاستفسار عن خدمات ACCE Network')
 const whatsappLink = computed(() => `https://wa.me/${whatsappNumber.replace(/\s/g, '')}?text=${whatsappMessage}`)
 

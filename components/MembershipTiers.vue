@@ -13,7 +13,7 @@
         <table class="w-full">
           <thead>
             <tr class="bg-gradient-to-r from-gold-500 to-gold-600 text-white">
-              <th class="px-4 py-4 text-right font-bold">مستوى ووظيفة الموظف</th>
+              <th class="px-4 py-4 text-right font-bold">المستوى</th>
               <th class="px-4 py-4 text-center font-bold">درجة الحمال<br/>(الاشتراك)</th>
               <th class="px-4 py-4 text-center font-bold">عددالموهلم</th>
               <th class="px-4 py-4 text-center font-bold" v-for="i in 5" :key="i">
@@ -49,8 +49,7 @@
       <!-- Additional Info -->
       <div class="mt-8 bg-white rounded-xl p-6 text-navy-900">
         <p class="text-sm leading-relaxed text-gray-600">
-          <strong>ملاحظة:</strong> الوديعة هي ضمان لجدية العمل.
-          مثال (C2): إنجاز 10 مهام يومياً يحقق <span class="text-navy-900 font-bold">3.2$ يومياً</span>، ما يعادل <span class="text-navy-900 font-bold">960$ شهرياً</span> و <span class="text-navy-900 font-bold">11,680$ سنوياً</span>.
+          <strong>ملاحظة:</strong> كموظف، فإن دفع الوديعة هو التزامك تجاه وظيفتك وضمانك للموظفين الآخرين. يمكنك كسب الدخل من خلال القيام بمهام مختلفة خلال يوم العمل. على سبيل المثال: باعتبارك موظف C2، يمكنك استلام 10 مهام يومياً، ويكون ربح كل مهمة 3.8 دولاراً أمريكياً. إجمالي الدخل لمدة 30 يوم عمل هو 1140 دولاراً أمريكياً، والراتب الأساسي لمدة 365 يوم عمل هو 13,870 دولاراً أمريكياً.
         </p>
       </div>
     </div>
@@ -66,49 +65,49 @@ const getLevelLabel = (level: number) => {
 
 const tiers = [
   {
-    name: 'C1 - موظف مبتدئ',
+    name: 'C1',
     cost: 600,
     employees: 5,
     commissions: [3.2, 16, 480, 1440, 5840]
   },
   {
-    name: 'C2 - موظف مبتدئ',
+    name: 'C2',
     cost: 1200,
     employees: 10,
-    commissions: [3.2, 32, 960, 2880, 11680]
+    commissions: [3.2, 38, 1140, 3420, 13870]
   },
   {
-    name: 'B1 - بدء بكالوريوس يونيفرسيتي',
+    name: 'B1',
     cost: 2600,
     employees: 11,
     commissions: [6.1, 67.1, 2013, 6039, 24491.5]
   },
   {
-    name: 'B2 - بكالوريوس يونيفرسيتي',
+    name: 'B2',
     cost: 6000,
     employees: 25,
     commissions: [6.1, 152.5, 4575, 13725, 55662.5]
   },
   {
-    name: 'A1 - كبار الموظفين',
+    name: 'A1',
     cost: 13000,
     employees: 33,
     commissions: [10, 330, 9900, 29700, 120450]
   },
   {
-    name: 'A2 - كبار الموظفين',
+    name: 'A2',
     cost: 28000,
     employees: 71,
     commissions: [10, 710, 21300, 63900, 259150]
   },
   {
-    name: 'S1 - المميزين الرئيسيين',
+    name: 'S1',
     cost: 60000,
     employees: 0,
     commissions: [0, 1540, 46200, 138600, 562100]
   },
   {
-    name: 'S2 - المميزين الرئيسيين',
+    name: 'S2',
     cost: 100000,
     employees: 0,
     commissions: [0, 2570, 77100, 231300, 938050]

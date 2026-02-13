@@ -65,7 +65,7 @@
         </div>
 
         <!-- Dynamic Visual - Realistic Mobile Mockup -->
-        <div class="relative hidden lg:flex items-center justify-center animate-fade-in delay-200">
+        <div class="relative flex items-center justify-center animate-fade-in delay-200 mt-12 lg:mt-0">
           <div class="relative w-[330px] h-[680px] bg-white rounded-[3.5rem] border-[10px] border-gray-900 shadow-2xl overflow-hidden">
             <!-- Dynamic Island -->
             <div class="absolute top-3 left-1/2 transform -translate-x-1/2 w-[100px] h-[28px] bg-black rounded-full z-30"></div>
@@ -259,7 +259,7 @@ import { ArrowLeft, PlayCircle, Star, ThumbsUp, Share2, CheckCircle2, Wallet, Ch
 const profiles = [
   {
     username: '****61687',
-    level: 'C 2',
+    level: 'C2',
     levelColor: 'text-yellow-400',
     avatar: 'https://api.dicebear.com/7.x/personas/svg?seed=Jack',
     earnings: '419',
@@ -273,7 +273,7 @@ const profiles = [
   },
   {
     username: '****20076',
-    level: 'B 1',
+    level: 'B1',
     levelColor: 'text-orange-400',
     avatar: 'https://api.dicebear.com/7.x/personas/svg?seed=Oliver',
     earnings: '8215.99',
@@ -287,7 +287,7 @@ const profiles = [
   },
   {
     username: '****86521',
-    level: 'B 1',
+    level: 'B1',
     levelColor: 'text-orange-400',
     avatar: 'https://api.dicebear.com/7.x/personas/svg?seed=George',
     earnings: '319.89',

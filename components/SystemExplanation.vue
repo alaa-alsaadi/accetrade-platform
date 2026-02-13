@@ -27,7 +27,7 @@
             </div>
           </div>
           <h3 class="step-title">الراتب الأساسي</h3>
-          <p class="step-desc">راتبك الأساسي كموظف C1 - مضمون ومستقر</p>
+          <p class="step-desc">راتبك الأساسي كمستوى C1 - مضمون ومستقر</p>
           <div class="step-amount">128 USDT</div>
         </div>
 

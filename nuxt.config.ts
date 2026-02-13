@@ -26,6 +26,7 @@ export default defineNuxtConfig({
         }
       ],
       link: [
+        { rel: 'icon', type: 'image/png', href: '/logo.png' },
         {
           rel: 'stylesheet',
           href: 'https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap'
